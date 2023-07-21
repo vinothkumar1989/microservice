@@ -7,12 +7,7 @@ eureka:
     service-url:
       defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
       
-okta:
-  oauth2:
-    issuer: https://dev-44258917.okta.com/oauth2/default
-    audience: api://default
-    client-id: 0oa6s2gf5dujBX8qX5d7
-    client-secret: vm9Jh3B-LwOBuUM9Z-ZKZGkdbIxGqlKljvsMp_JQ
+
 spring:
   zipkin:
     baseUrl: http://127.0.0.1:9411
